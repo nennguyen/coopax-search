@@ -1,13 +1,19 @@
 {
   "name": "coopax-search",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.7",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+  "main": "./dist/coopax-search.min.js",
+  "files": [
+    "dist/*",
+    "*.json",
+    "*.js"
+  ],
   "dependencies": {
+    "axios": "^0.21.1",
     "core-js": "^3.6.5",
     "vue": "^2.6.11"
   },
